@@ -7,7 +7,6 @@
   <!-- Fancy badges -->
   <img src="https://img.shields.io/badge/Minecraft%20Version-1.19.4-blue" alt="Minecraft Version">
   <a href="https://github.com/AntiCope/meteor-rejects/commits/master"><img src="https://img.shields.io/github/last-commit/AntiCope/meteor-rejects?logo=git" alt="Last commit"></a>
-  <img src="https://img.shields.io/github/workflow/status/AntiCope/meteor-rejects/Java%20CI%20with%20Gradle?logo=github" alt="build status">
 
 
 </div>
