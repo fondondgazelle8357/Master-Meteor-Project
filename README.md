@@ -29,5 +29,39 @@
 
 *Make sure to install meteor client when using this mod.
 # Features
-## Addons
----addons will be puit here !!
+## Addons WIP To Import
+Vector Addon - https://github.com/cally72jhb/vector-addon
+
+Orion Addon - https://github.com/AntiCope/orion
+
+Meteor Plus - https://github.com/Nekiplay/MeteorPlus
+
+Meteor Crash Addon - https://github.com/AntiCope/meteor-crash-addon
+
+Villager Roller - https://github.com/maxsupermanhd/meteor-villager-roller
+
+Meteorist - https://github.com/Zgoly/Meteorist
+
+Meteor Tweaks - https://github.com/Declipsonator/Meteor-Tweaks
+
+Meteor Addons - https://github.com/JFronny/MeteorAdditions
+
+Blackout - https://github.com/KassuK1/BlackOut
+
+Numby Hack - https://github.com/cqb13/Numby-hack
+
+Trouser Streak - https://github.com/etianl/Trouser-Streak
+
+HIG Tools - https://github.com/RedCarlos26/HIGTools
+
+Litematica Printer - https://github.com/kkllffaa/meteor-litematica-printer
+
+Electron Meteor - https://github.com/RacoonDog/Electron
+
+Meteor Utils - https://github.com/kkllffaa/meteor-utils
+
+Reaper Addon - https://github.com/AntiCope/reaper-addon
+
+Bidoof Addon - https://github.com/RacoonDog/bidoof-meteor
+
+Gurkens Gadgetry - https://github.com/stefexec/gurkens-gadgetry-public
