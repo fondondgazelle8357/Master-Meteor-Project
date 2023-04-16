@@ -8,10 +8,8 @@
   <img src="https://img.shields.io/badge/Minecraft%20Version-1.19.4-blue" alt="Minecraft Version">
   <a href="https://github.com/AntiCope/meteor-rejects/commits/master"><img src="https://img.shields.io/github/last-commit/AntiCope/meteor-rejects?logo=git" alt="Last commit"></a>
   <img src="https://img.shields.io/github/workflow/status/AntiCope/meteor-rejects/Java%20CI%20with%20Gradle?logo=github" alt="build status">
-  <img src="https://img.shields.io/github/languages/code-size/AntiCope/meteor-rejects" alt="Code Size">
-  <img src="https://img.shields.io/github/repo-size/AntiCope/meteor-rejects" alt="Repo Size">
-  <img src="https://img.shields.io/github/issues/AntiCope/meteor-rejects" alt="Issues">
-  <img src="https://img.shields.io/github/stars/AntiCope/meteor-rejects" alt="Stars">
+
+
 </div>
 
 <hr />
