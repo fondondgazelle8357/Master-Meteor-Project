@@ -1,7 +1,7 @@
 <div align="center">
   <!-- Logo and Title -->
   <img src="/src/main/resources/assets/rejects/icon.png" alt="logo" width="20%"/>
-  <h1>Meteor Rejects</h1>
+  <h1>Anticope.ml Pack</h1>
   <p>(Almost) every addon from anticope.ml. We are not the creators of the mods themselves. All mods can be found on anticope.ml. Join discord.gg/lefty to support us!</p>
 
   <!-- Fancy badges -->
