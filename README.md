@@ -5,8 +5,6 @@
   <p>(Almost) every addon from anticope.ml. We are not the creators of the mods themselves. All mods can be found on https://anticope.ml. Join https://discord.gg/lefty to support us!</p>
 
   <!-- Fancy badges -->
-  <a href="https://anticope.ml/pages/MeteorAddons.html"><img src="https://img.shields.io/badge/Verified%20Addon-Yes-blueviolet" alt="Verified Addon"></a>
-  <a href="https://github.com/AntiCope/meteor-rejects/releases"><img src="https://img.shields.io/badge/Version-v0.1-orange" alt="Version"></a>
   <img src="https://img.shields.io/badge/Minecraft%20Version-1.19.4-blue" alt="Minecraft Version">
   <a href="https://github.com/AntiCope/meteor-rejects/commits/master"><img src="https://img.shields.io/github/last-commit/AntiCope/meteor-rejects?logo=git" alt="Last commit"></a>
   <img src="https://img.shields.io/github/workflow/status/AntiCope/meteor-rejects/Java%20CI%20with%20Gradle?logo=github" alt="build status">
