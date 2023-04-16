@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Logo and Title -->
-  <img src="/src/main/resources/assets/rejects/icon.png" alt="logo" width="20%"/>
+  <img src="/src/main/resources/assets/rejects/GithubLogo.png" alt="logo" width="20%"/>
   <h1>Anticope.ml Pack</h1>
   <p>(Almost) every addon from anticope.ml. We are not the creators of the mods themselves. All mods can be found on https://anticope.ml. Join https://discord.gg/lefty to support us!</p>
 
