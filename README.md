@@ -15,6 +15,7 @@
 
 <div align="center">
   <a href="https://discord.gg/lefty"><img src="https://invidget.switchblade.xyz/lefty"></a>
+  <a href="https://discord.gg/9mrRPGKYU3"><img src="https://invidget.switchblade.xyz/9mrRPGKYU3"></a>
 </div>
 
 # How to use
