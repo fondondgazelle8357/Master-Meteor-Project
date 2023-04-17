@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
-  "id": "meteor-rejects",
+  "id": "anticope.ml-pack",
   "version": "${version}",
 
-  "name": "Meteor Rejects",
-  "description": "An addon to Meteor Client that adds modules and commands that were too useless to be added to Meteor directly.",
+  "name": "Anticope.ml Pack",
+  "description": "Every Meteor Addon from https://anticope.ml packed all into one fat mod.",
   "authors": [
-    "Cloudburst",
-    "StormyBytes"
+    "Lefty",
+    "Blubbled",
+    "Anticope addon authors."
   ],
   "contact": {
-    "issues": "https://github.com/AntiCope/meteor-rejects/issues",
-    "sources": "https://github.com/AntiCope/meteor-rejects"
+    "issues": "https://github.com/bruh1273/Master-Meteor-Project/issues",
+    "sources": "https://github.com/bruh1273/Master-Meteor-Project"
   },
 
   "license": "GPL-3.0",
@@ -27,15 +28,15 @@
     ]
   },
   "mixins": [
-    "meteor-rejects.mixins.json",
-    "meteor-rejects-meteor.mixins.json"
+    "mixins.json",
+    "meteor.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "227,0,0",
     "github:sha": "${gh_hash}"
   },
   "depends": {
-    "java": ">=16",
+    "java": ">=17",
     "minecraft": "~${mc_version}",
     "meteor-client": "*"
   }
