@@ -64,6 +64,6 @@ Gurkens Gadgetry - https://github.com/stefexec/gurkens-gadgetry-public
 
 Viafabric (allows joining servers on lower versions, not on anticope.ml) - https://github.com/ViaVersion/ViaFabric
   
-Lefty Benefit (dupehunting mod, not on anticope.ml; upgraded version of UI Utils by Coderx gamer) - https://github.com/bruh1273/Lefty-benefit
+Lefty Benefit (dupehunting mod, not on anticope.ml; upgraded version of UI Utils by Coderx gamer) - [Here](https://github.com/bruh1273/Lefty-s-Benefit)
   
 Fabric API and MaLiLib are included as they are required for minecraft to run with these modules.
