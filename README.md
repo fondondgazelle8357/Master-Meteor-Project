@@ -29,9 +29,8 @@
 - [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api) and [MaLiLib](https://www.curseforge.com/minecraft/mc-mods/malilib) are included as they are required for minecraft to run with these modules.
 - Villager Roller - https://github.com/maxsupermanhd/meteor-villager-roller
 - Lefty Benefit (dupehunting mod, not on anticope.ml) - [Here](https://github.com/bruh1273/Lefty-s-Benefit)
+- Vector Addon - https://github.com/cally72jhb/vector-addon
 ## Addons WIP To Import
-Vector Addon - https://github.com/cally72jhb/vector-addon
-
 Orion Addon - https://github.com/AntiCope/orion
 
 Meteor Plus - https://github.com/Nekiplay/MeteorPlus
