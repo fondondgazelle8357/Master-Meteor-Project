@@ -22,7 +22,7 @@
 - Download the latest [release](/../../releases) of the mod from the releases tab.
 - Put it in your `.minecraft/mods` folder where you have installed Meteor.
 
-*Make sure to install meteor client when using this mod.
+<b>Make sure to install meteor client when using this mod.</b>
 # Features
 ## Addons WIP To Import
 Vector Addon - https://github.com/cally72jhb/vector-addon
