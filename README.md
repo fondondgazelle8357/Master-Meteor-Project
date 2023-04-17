@@ -34,6 +34,7 @@
 - Meteor Plus - https://github.com/Nekiplay/MeteorPlus
 - Numby Hack - https://github.com/cqb13/Numby-hack
 - Trouser Streak - https://github.com/etianl/Trouser-Streak
+- Litematica Printer - https://github.com/kkllffaa/meteor-litematica-printer
 ## Addons WIP To Import
 Orion Addon - https://github.com/AntiCope/orion
 
@@ -48,8 +49,6 @@ Meteor Addons - https://github.com/JFronny/MeteorAdditions
 Blackout - https://github.com/KassuK1/BlackOut
 
 HIG Tools - https://github.com/RedCarlos26/HIGTools
-
-Litematica Printer - https://github.com/kkllffaa/meteor-litematica-printer
 
 Electron Meteor - https://github.com/RacoonDog/Electron
 
