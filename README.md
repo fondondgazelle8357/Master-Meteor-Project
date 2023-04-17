@@ -39,8 +39,9 @@
 - SeedCrackerX (not on anticope; seedcracker for minecraft) - https://github.com/19MisterX98/SeedcrackerX
 - Electron Meteor - https://github.com/RacoonDog/Electron
 - Litematica (not on anticope; schematic mod for minecraft, improved with the anticope mod Litematica Printer) - https://github.com/maruohon/litematica
+- Orion Addon - https://github.com/AntiCope/orion
 ## Addons WIP To Import
-Orion Addon - https://github.com/AntiCope/orion
+
 
 Meteor Crash Addon - https://github.com/AntiCope/meteor-crash-addon
 
