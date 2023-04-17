@@ -25,6 +25,8 @@
 
 <b><H3>Make sure to install meteor client when using this mod.<h3></b>
 # Features
+## Addons that are imported
+Villager Roller - https://github.com/maxsupermanhd/meteor-villager-roller
 ## Addons WIP To Import
 Vector Addon - https://github.com/cally72jhb/vector-addon
 
@@ -33,8 +35,6 @@ Orion Addon - https://github.com/AntiCope/orion
 Meteor Plus - https://github.com/Nekiplay/MeteorPlus
 
 Meteor Crash Addon - https://github.com/AntiCope/meteor-crash-addon
-
-Villager Roller - https://github.com/maxsupermanhd/meteor-villager-roller
 
 Meteorist - https://github.com/Zgoly/Meteorist
 
