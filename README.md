@@ -63,7 +63,9 @@ Reaper Addon - https://github.com/AntiCope/reaper-addon
 Bidoof Addon - https://github.com/RacoonDog/bidoof-meteor
 
 Gurkens Gadgetry - https://github.com/stefexec/gurkens-gadgetry-public
-
-Litematica ([not on anticope] schematic mod for minecraft, improved with the anticope mod Litematica Printer) - https://github.com/maruohon/litematica
+  
+SeedCrackerX (not on litematica; seedcracker for minecraft) - https://github.com/19MisterX98/SeedcrackerX
+  
+Litematica (not on anticope; schematic mod for minecraft, improved with the anticope mod Litematica Printer) - https://github.com/maruohon/litematica
 
 Viafabric (allows joining servers on lower versions, not on anticope.ml) - https://github.com/ViaVersion/ViaFabric
