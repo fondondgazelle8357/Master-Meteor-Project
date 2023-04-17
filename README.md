@@ -22,7 +22,7 @@
 - Download the latest [release](/../../releases) of the mod from the releases tab.
 - Put it in your `.minecraft/mods` folder where you have installed Meteor.
 
-<b><H3><FONT COLOR=red>Make sure to install meteor client when using this mod.<h3></b>
+<b><H3><font color="#9900FF">Make sure to install meteor client when using this mod.</font><h3></b>
 # Features
 ## Addons WIP To Import
 Vector Addon - https://github.com/cally72jhb/vector-addon
