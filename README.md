@@ -26,8 +26,8 @@
 <b><H3>Make sure to install meteor client when using this mod.<h3></b>
 # Features
 ## Addons that are imported
-Villager Roller - https://github.com/maxsupermanhd/meteor-villager-roller
-Lefty Benefit (dupehunting mod, not on anticope.ml) - [Here](https://github.com/bruh1273/Lefty-s-Benefit)
+- Villager Roller - https://github.com/maxsupermanhd/meteor-villager-roller
+- Lefty Benefit (dupehunting mod, not on anticope.ml) - [Here](https://github.com/bruh1273/Lefty-s-Benefit)
 ## Addons WIP To Import
 Vector Addon - https://github.com/cally72jhb/vector-addon
 
