@@ -27,6 +27,7 @@
 # Features
 ## Addons that are imported
 Villager Roller - https://github.com/maxsupermanhd/meteor-villager-roller
+Lefty Benefit (dupehunting mod, not on anticope.ml) - [Here](https://github.com/bruh1273/Lefty-s-Benefit)
 ## Addons WIP To Import
 Vector Addon - https://github.com/cally72jhb/vector-addon
 
@@ -63,7 +64,5 @@ Bidoof Addon - https://github.com/RacoonDog/bidoof-meteor
 Gurkens Gadgetry - https://github.com/stefexec/gurkens-gadgetry-public
 
 Viafabric (allows joining servers on lower versions, not on anticope.ml) - https://github.com/ViaVersion/ViaFabric
-  
-Lefty Benefit (dupehunting mod, not on anticope.ml; upgraded version of UI Utils by Coderx gamer) - [Here](https://github.com/bruh1273/Lefty-s-Benefit)
-  
+ 
 Fabric API and MaLiLib are included as they are required for minecraft to run with these modules.
