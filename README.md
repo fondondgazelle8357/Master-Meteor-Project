@@ -2,7 +2,7 @@
   <!-- Logo and Title -->
   <img src="/src/main/resources/assets/rejects/No-LD-Logo.png" alt="logo" width="200%"/>
   <h1><a href="https://anticope.ml">Anticope</a> Pack</h1>
-  <p>An all-in-one pack of every <strong>useful</strong> mod in anticope.ml. Most of the mods are not created by us. All mods can be found on https://anticope.ml. Join https://discord.gg/lefty to support us!</p>
+  <p>An all-in-one pack of every <strong>useful</strong> mod in anticope.ml along with a few other useful addons. Most of the mods are not created by us. All mods can be found on https://anticope.ml. Join https://discord.gg/lefty to support us!</p>
 
   <!-- Fancy badges -->
   <img src="https://img.shields.io/badge/Minecraft%20Version-1.19.4-blue" alt="Minecraft Version">
