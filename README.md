@@ -25,7 +25,7 @@
 
 <b><H3>Make sure to install meteor client when using this mod.<h3></b>
 # Features
-## Addons that are imported
+## Addons includded
 - [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api) and [MaLiLib](https://www.curseforge.com/minecraft/mc-mods/malilib) are included as they are required for minecraft to run with these modules.
 - Villager Roller - https://github.com/maxsupermanhd/meteor-villager-roller
 - Lefty Benefit (dupehunting mod, not on anticope.ml) - [Here](https://github.com/bruh1273/Lefty-s-Benefit)
@@ -63,5 +63,7 @@ Reaper Addon - https://github.com/AntiCope/reaper-addon
 Bidoof Addon - https://github.com/RacoonDog/bidoof-meteor
 
 Gurkens Gadgetry - https://github.com/stefexec/gurkens-gadgetry-public
+
+Litematica ([not on anticope] schematic mod for minecraft, improved with the anticope mod Litematica Printer) - https://github.com/maruohon/litematica
 
 Viafabric (allows joining servers on lower versions, not on anticope.ml) - https://github.com/ViaVersion/ViaFabric
