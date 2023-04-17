@@ -31,10 +31,9 @@
 - Lefty Benefit (dupehunting mod, not on anticope.ml) - [Here](https://github.com/bruh1273/Lefty-s-Benefit)
 - Vector Addon - https://github.com/cally72jhb/vector-addon
 - Meteor Utils - https://github.com/kkllffaa/meteor-utils
+- Meteor Plus - https://github.com/Nekiplay/MeteorPlus
 ## Addons WIP To Import
 Orion Addon - https://github.com/AntiCope/orion
-
-Meteor Plus - https://github.com/Nekiplay/MeteorPlus
 
 Meteor Crash Addon - https://github.com/AntiCope/meteor-crash-addon
 
