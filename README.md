@@ -37,6 +37,7 @@
 - Litematica Printer - https://github.com/kkllffaa/meteor-litematica-printer
 - HIG Tools - https://github.com/RedCarlos26/HIGTools
 - SeedCrackerX (not on litematica; seedcracker for minecraft) - https://github.com/19MisterX98/SeedcrackerX
+- Electron Meteor - https://github.com/RacoonDog/Electron
 ## Addons WIP To Import
 Orion Addon - https://github.com/AntiCope/orion
 
@@ -49,8 +50,6 @@ Meteor Tweaks - https://github.com/Declipsonator/Meteor-Tweaks
 Meteor Addons - https://github.com/JFronny/MeteorAdditions
 
 Blackout - https://github.com/KassuK1/BlackOut
-
-Electron Meteor - https://github.com/RacoonDog/Electron
 
 Reaper Addon - https://github.com/AntiCope/reaper-addon
 
