@@ -40,8 +40,8 @@
 - Electron Meteor - https://github.com/RacoonDog/Electron
 - Litematica (not on anticope; schematic mod for minecraft, improved with the anticope mod Litematica Printer) - https://github.com/maruohon/litematica
 - Orion Addon - https://github.com/AntiCope/orion
+- Gurkens Gadgetry - https://github.com/stefexec/gurkens-gadgetry-public
 ## Addons WIP To Import
-
 
 Meteor Crash Addon - https://github.com/AntiCope/meteor-crash-addon
 
@@ -56,7 +56,5 @@ Blackout - https://github.com/KassuK1/BlackOut
 Reaper Addon - https://github.com/AntiCope/reaper-addon
 
 Bidoof Addon - https://github.com/RacoonDog/bidoof-meteor
-
-Gurkens Gadgetry - https://github.com/stefexec/gurkens-gadgetry-public
   
 Viafabric (allows joining servers on lower versions, not on anticope.ml) - https://github.com/ViaVersion/ViaFabric
