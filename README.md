@@ -32,6 +32,7 @@
 - Vector Addon - https://github.com/cally72jhb/vector-addon
 - Meteor Utils - https://github.com/kkllffaa/meteor-utils
 - Meteor Plus - https://github.com/Nekiplay/MeteorPlus
+- Numby Hack - https://github.com/cqb13/Numby-hack
 ## Addons WIP To Import
 Orion Addon - https://github.com/AntiCope/orion
 
@@ -44,8 +45,6 @@ Meteor Tweaks - https://github.com/Declipsonator/Meteor-Tweaks
 Meteor Addons - https://github.com/JFronny/MeteorAdditions
 
 Blackout - https://github.com/KassuK1/BlackOut
-
-Numby Hack - https://github.com/cqb13/Numby-hack
 
 Trouser Streak - https://github.com/etianl/Trouser-Streak
 
