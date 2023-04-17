@@ -30,6 +30,7 @@
 - Villager Roller - https://github.com/maxsupermanhd/meteor-villager-roller
 - Lefty Benefit (dupehunting mod, not on anticope.ml) - [Here](https://github.com/bruh1273/Lefty-s-Benefit)
 - Vector Addon - https://github.com/cally72jhb/vector-addon
+- Meteor Utils - https://github.com/kkllffaa/meteor-utils
 ## Addons WIP To Import
 Orion Addon - https://github.com/AntiCope/orion
 
@@ -54,8 +55,6 @@ HIG Tools - https://github.com/RedCarlos26/HIGTools
 Litematica Printer - https://github.com/kkllffaa/meteor-litematica-printer
 
 Electron Meteor - https://github.com/RacoonDog/Electron
-
-Meteor Utils - https://github.com/kkllffaa/meteor-utils
 
 Reaper Addon - https://github.com/AntiCope/reaper-addon
 
