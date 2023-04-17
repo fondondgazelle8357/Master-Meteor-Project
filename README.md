@@ -21,7 +21,7 @@
 # How to use
 - Install <a href="https://fabricmc.net/use/installer/">fabric launcher</a> for 1.19.4
 - Download the latest [release](/../../releases) of the mod from the releases tab.
-- Put it in your `.minecraft/mods` folder where you have installed Meteor.
+- Put it in your `C:\Users\`[name]`\AppData\Roaming\.minecraft\mods` folder where you have installed Meteor.
 
 <b><H3>Make sure to install meteor client when using this mod.<h3></b>
 # Features
