@@ -36,8 +36,9 @@
 - Trouser Streak - https://github.com/etianl/Trouser-Streak
 - Litematica Printer - https://github.com/kkllffaa/meteor-litematica-printer
 - HIG Tools - https://github.com/RedCarlos26/HIGTools
-- SeedCrackerX (not on litematica; seedcracker for minecraft) - https://github.com/19MisterX98/SeedcrackerX
+- SeedCrackerX (not on anticope; seedcracker for minecraft) - https://github.com/19MisterX98/SeedcrackerX
 - Electron Meteor - https://github.com/RacoonDog/Electron
+- Litematica (not on anticope; schematic mod for minecraft, improved with the anticope mod Litematica Printer) - https://github.com/maruohon/litematica
 ## Addons WIP To Import
 Orion Addon - https://github.com/AntiCope/orion
 
@@ -57,6 +58,4 @@ Bidoof Addon - https://github.com/RacoonDog/bidoof-meteor
 
 Gurkens Gadgetry - https://github.com/stefexec/gurkens-gadgetry-public
   
-Litematica (not on anticope; schematic mod for minecraft, improved with the anticope mod Litematica Printer) - https://github.com/maruohon/litematica
-
 Viafabric (allows joining servers on lower versions, not on anticope.ml) - https://github.com/ViaVersion/ViaFabric
