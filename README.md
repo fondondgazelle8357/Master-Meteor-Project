@@ -62,6 +62,8 @@ Bidoof Addon - https://github.com/RacoonDog/bidoof-meteor
 
 Gurkens Gadgetry - https://github.com/stefexec/gurkens-gadgetry-public
 
-Lefty Benifit (dupehunting mod, not on anticope.ml; upgraded version of UI Utils by Coderx gamer) https://github.com/bruh1273/Lefty-benefit
+Viafabric (allows joining servers on lower versions, not on anticope.ml) - https://github.com/ViaVersion/ViaFabric
+  
+Lefty Benifit (dupehunting mod, not on anticope.ml; upgraded version of UI Utils by Coderx gamer) - https://github.com/bruh1273/Lefty-benefit
   
 Fabric API and MaLiLib are included as they are required for minecraft to run with these modules.
