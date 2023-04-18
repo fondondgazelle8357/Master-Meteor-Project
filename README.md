@@ -47,9 +47,7 @@
 - Meteor Crash Addon - https://github.com/AntiCope/meteor-crash-addon
 - Reaper Addon - https://github.com/AntiCope/reaper-addon
 ## Addons WIP To Import
-
-Meteor Tweaks - https://github.com/Declipsonator/Meteor-Tweaks
-
+  
 Meteor Addons - https://github.com/JFronny/MeteorAdditions
 
 Blackout - https://github.com/KassuK1/BlackOut
