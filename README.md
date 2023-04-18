@@ -44,10 +44,9 @@
 - Viafabric (allows joining servers on lower versions, not on anticope.ml) - https://github.com/ViaVersion/ViaFabric
 - Bidoof Addon - https://github.com/RacoonDog/bidoof-meteor
 - Meteorist - https://github.com/Zgoly/Meteorist
+- Meteor Crash Addon - https://github.com/AntiCope/meteor-crash-addon
 ## Addons WIP To Import
 
-Meteor Crash Addon - https://github.com/AntiCope/meteor-crash-addon
-  
 Meteor Tweaks - https://github.com/Declipsonator/Meteor-Tweaks
 
 Meteor Addons - https://github.com/JFronny/MeteorAdditions
