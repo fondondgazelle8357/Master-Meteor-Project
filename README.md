@@ -48,6 +48,4 @@
 - Reaper Addon - https://github.com/AntiCope/reaper-addon
 ## Addons WIP To Import
   
-Meteor Addons - https://github.com/JFronny/MeteorAdditions
-
 Blackout - https://github.com/KassuK1/BlackOut
