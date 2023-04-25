@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "kassuk.addon.blackout.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "MixinBackground",
+    "MixinClientPlayerEntity",
+    "MixinEntity",
+    "MixinHeldItemRenderer",
+    "MixinLivingEntityRenderer",
+    "MixinPlayerMoveC2SPacket",
+    "MixinSound",
+    "MixinBlockSettings",
+    "MixinExplosion",
+    "MixinPlayerEntity",
+    "MixinRaycastContext"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": []
+}

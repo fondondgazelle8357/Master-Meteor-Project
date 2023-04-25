@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cally72jhb.addon.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ClientConnectionMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "PlayerEntityMixin",
+    "WorldBorderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

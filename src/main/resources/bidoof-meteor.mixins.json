@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "package": "io.github.racoondog.bidoofmeteor.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "ChatHudMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "MusicTrackerMixin",
+    "Renderer2DMixin",
+    "StringReaderMixin",
+    "meteor.BetterChatMixin",
+    "meteor.BetterTooltipsMixin",
+    "meteor.JesusMixin",
+    "meteor.MeteorClientMixin",
+    "meteor.NoFallMixin"
+  ]
+}

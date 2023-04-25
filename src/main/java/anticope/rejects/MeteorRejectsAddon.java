@@ -126,7 +126,7 @@ public class MeteorRejectsAddon extends MeteorAddon {
     public String getCommit() {
         String commit = FabricLoader
             .getInstance()
-            .getModContainer("meteor-rejects")
+            .getModContainer("viafabric-mc")
             .get().getMetadata()
             .getCustomValue("github:sha")
             .getAsString();

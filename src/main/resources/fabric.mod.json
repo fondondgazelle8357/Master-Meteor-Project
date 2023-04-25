@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "anticope.ml-pack",
+  "id": "viafabric-mc",
   "version": "${version}",
 
   "name": "Anticope.ml Pack",
@@ -16,21 +16,64 @@
   },
 
   "license": "GPL-3.0",
-  "icon": "assets/rejects/icon.png",
+  "icon": "assets/rejects/No-Ld-Logo.png",
 
   "environment": "client",
   "entrypoints": {
+    "main": [
+      "kaptainwutax.seedcrackerX.SeedCracker"
+    ],
+    "modmenu": [
+      "kaptainwutax.seedcrackerX.config.ScModMenuEntry"
+    ],
+    "client": [
+      "org.benefit.Client"
+    ],
     "meteor": [
-      "anticope.rejects.MeteorRejectsAddon"
+      "anticope.rejects.MeteorRejectsAddon",
+      "maxsuperman.addons.roller.VillagerRollerAddon",
+      "cally72jhb.addon.VectorAddon",
+      "com.kkllffaa.meteorutils.Addon",
+      "olejka.meteorplus.MeteorPlus",
+      "cqb13.NumbyHack.NumbyHack",
+      "pwn.noobs.trouserstreak.Trouser",
+      "com.kkllffaa.meteor_litematica_printer.Addon",
+      "higtools.HIGTools",
+      "io.github.racoondog.electron.Electron",
+      "me.ghosttypes.orion.Orion",
+      "de.gurkenwerfer.toolkit.GurkensGadgetry",
+      "io.github.racoondog.bidoofmeteor.BidoofMeteor",
+      "zgoly.meteorist.Meteorist",
+      "widecat.meteorcrashaddon.CrashAddon",
+      "me.ghosttypes.reaper.Reaper",
+      "kassuk.addon.blackout.BlackOut"
     ],
     "seedcrackerx": [
       "anticope.rejects.utils.SeedCrackerEP"
     ]
   },
   "mixins": [
-    "mixins.json",
-    "meteor.mixins.json"
+    "rejects.mixins.json",
+    "meteor-rejects.mixins.json",
+    "roller.mixins.json",
+    "benefit.mixins.json",
+    "vector-addon.mixins.json",
+    "meteor-utils.mixins.json",
+    "meteor-plus.mixins.json",
+    "NumbyHack.mixins.json",
+    "streak.mixins.json",
+    "higtools.mixins.json",
+    "seedcracker.mixins.json",
+    "electron.mixins.json",
+    "gadgetry.mixins.json",
+    "bidoof-meteor.mixins.json",
+    "meteorcrashaddon.mixins.json",
+    "reaper.mixins.json",
+    "addon.mixins.json"
   ],
+  "accessWidener": "vector-addon.accesswidener",
+  "accessWidener": "higtools.accesswidener",
+  "accessWidener": "accesswidener",
   "custom": {
     "meteor-client:color": "227,0,0",
     "github:sha": "${gh_hash}"
@@ -38,6 +81,14 @@
   "depends": {
     "java": ">=17",
     "minecraft": "~${mc_version}",
+    "fabricloader": ">=0.14.17",
+    "fabric": "*",
+    "minecraft": "~1.19.4",
+    "meteor-shared-addon-utils": "*",
     "meteor-client": "*"
+  },
+  "suggests": {
+    "another-mod": "*",
+    "flamingo": "*"
   }
 }

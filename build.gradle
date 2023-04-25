@@ -1,5 +1,11 @@
 plugins {
 	id 'fabric-loom' version '1.1-SNAPSHOT'
+	id "com.github.ben-manes.versions" version "0.42.0"
+	id "java"
+	id "maven-publish"
+	id "org.ajoberstar.grgit" version "3.1.1"
+	id "com.matthewprenger.cursegradle" version "1.4.0"
+	id "com.modrinth.minotaur" version "2.2.0"
 }
 
 sourceCompatibility = targetCompatibility = JavaVersion.VERSION_17
@@ -8,18 +14,42 @@ archivesBaseName = project.archives_base_name
 version = project.mod_version
 group = project.maven_group
 
+sourceSets {
+	api {
+		java {
+			compileClasspath += main.compileClasspath
+		}
+	}
+	main {
+		java {
+			compileClasspath += api.output
+			runtimeClasspath += api.output
+		}
+	}
+}
+
 repositories {
 	mavenCentral()
 	mavenLocal()
+	maven { url "https://maven.terraformersmc.com/releases" }
+	maven { url "https://maven.shedaniel.me/" }
+	maven { url "https://maven.latticg.com/" }
+	maven { url "https://maven-snapshots.seedfinding.com/" }
 	maven { url "https://maven.meteordev.org/releases"}
 	maven { url "https://maven.meteordev.org/snapshots" }
 	maven { url "https://maven.seedfinding.com/" }
 	maven { url "https://maven-snapshots.seedfinding.com/" }
 	maven { url 'https://jitpack.io' }
+	maven { url 'https://masa.dy.fi/maven' }
+	maven { url = "https://repo.viaversion.com/" }
+	maven { url = "https://maven.fabricmc.net/" }
+	maven { url = "https://maven.legacyfabric.net/" }
+	maven { url = "https://www.cursemaven.com" }
+	maven { url = "https://repo.repsy.io/mvn/ggcrosby/meteorsharedaddonutils"}
+	maven { url = "https://gitlab.com/api/v4/projects/25805200/packages/maven"}
 }
 
 configurations {
-	// configuration that holds jars to include in the jar
 	extraLibs
 }
 
@@ -28,9 +58,14 @@ dependencies {
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	mappings "net.fabricmc:yarn:${project.yarn_version}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
-
-	modImplementation("meteordevelopment:meteor-client:${project.meteor_version}-SNAPSHOT")
-	modImplementation "baritone:fabric:${project.minecraft_version}-SNAPSHOT"
+	modImplementation(include("net.fabricmc.fabric-api:fabric-api:0.78.0+1.19.4"))
+	modImplementation(include("fi.dy.masa.malilib:malilib-fabric-${project.minecraft_version}:0.15.3"))
+	modImplementation(include("curse.maven:litematica-308892:4492787"))
+	modImplementation(include("curse.maven:viafabric-391298:4468841"))
+	modImplementation(include("meteordevelopment:meteor-client:${project.meteor_version}-SNAPSHOT"))
+	modImplementation(include("baritone:fabric:${project.minecraft_version}-SNAPSHOT"))
+	modImplementation(include("io.github.racoondog:MeteorSharedAddonUtils:1.2.1")) {transitive = false}
+	modImplementation "net.fabricmc.fabric-api:fabric-resource-loader-v0:+"
 
 	// seed .locate and ore sim
 	extraLibs('com.seedfinding:mc_math:0eb505174da8a92550f8ec6efe254e0fa936cc0d') { transitive = false }
@@ -40,12 +75,51 @@ dependencies {
 	extraLibs('com.seedfinding:mc_biome:b2271807a047bb43ac60c8c20ad47e315f19b9a6') { transitive = false }
 	extraLibs('com.seedfinding:mc_terrain:9e937ddb838e28e79423c287fa18b1ce66f061d7') { transitive = false }
 	extraLibs('com.seedfinding:mc_feature:c29fd1fcd746e14c1bcdb127da3113ba273db1fd') { transitive = false }
-	
-	// seedcracker api
-	implementation (include('com.github.19MisterX98.SeedcrackerX:seedcrackerx-api:2.13.1')) {transitive = false}
-//	implementation (include('com.github.19MisterX98.SeedcrackerX:seedcrackerx-api:master-SNAPSHOT')) {transitive = false}
 
+	include("net.fabricmc.fabric-api:fabric-command-api-v2:2.1.6+0c17ea9690")
+	include("net.fabricmc.fabric-api:fabric-api-base:0.1.2+b7f9825d1e")
+	include("net.fabricmc.fabric-api:fabric-resource-loader-v0:0.1.0+f1618918")
+
+	modApi("me.shedaniel.cloth:cloth-config-fabric:10.0.96") {exclude(group: "net.fabricmc.fabric-api")}
+	include("me.shedaniel.cloth:cloth-config-fabric:10.0.96")
+	modImplementation (include("com.terraformersmc:modmenu:6.1.0")) {transitive = false}
+	// seedcracker api
+	implementation('com.seedfinding:mc_math:0eb505174da8a92550f8ec6efe254e0fa936cc0d') { transitive = false }
+	implementation('com.seedfinding:mc_seed:5518e3ba3ee567fb0b51c15958967f70a6a19e02') { transitive = false }
+	implementation('com.seedfinding:mc_core:d685a37f0a466d4bf800e7f285daf9ef73c81678') { transitive = false }
+	implementation('com.seedfinding:mc_noise:a6ab8e6c688491829f8d2adf845392da22ef8e9c') { transitive = false }
+	implementation('com.seedfinding:mc_biome:b2271807a047bb43ac60c8c20ad47e315f19b9a6') { transitive = false }
+	implementation('com.seedfinding:mc_terrain:9e937ddb838e28e79423c287fa18b1ce66f061d7') { transitive = false }
+	implementation('com.seedfinding:mc_feature:c29fd1fcd746e14c1bcdb127da3113ba273db1fd') { transitive = false }
+	implementation('com.seedfinding:mc_reversal:ca64c0890c106f1a2207623c316fce86f250b918') { transitive = false }
+
+	implementation('com.seedfinding:latticg:1.06')
+
+	include('com.seedfinding:mc_math:0eb505174da8a92550f8ec6efe254e0fa936cc0d') { transitive = false }
+	include('com.seedfinding:mc_seed:5518e3ba3ee567fb0b51c15958967f70a6a19e02') { transitive = false }
+	include('com.seedfinding:mc_core:d685a37f0a466d4bf800e7f285daf9ef73c81678') { transitive = false }
+	include('com.seedfinding:mc_noise:a6ab8e6c688491829f8d2adf845392da22ef8e9c') { transitive = false }
+	include('com.seedfinding:mc_biome:b2271807a047bb43ac60c8c20ad47e315f19b9a6') { transitive = false }
+	include('com.seedfinding:mc_terrain:9e937ddb838e28e79423c287fa18b1ce66f061d7') { transitive = false }
+	include('com.seedfinding:mc_feature:c29fd1fcd746e14c1bcdb127da3113ba273db1fd') { transitive = false }
+	include('com.seedfinding:mc_reversal:ca64c0890c106f1a2207623c316fce86f250b918') { transitive = false }
+
+	include('com.seedfinding:latticg:1.06')
+	implementation(include('com.github.19MisterX98.SeedcrackerX:seedcrackerx-api:2.13.1')) {transitive = false}
+	implementation(include("com.viaversion:viaversion:4.6.2")) { transitive = false }
+	modImplementation(include("com.viaversion:viaversion-api:4.6.2")) { transitive = false }
+	implementation("com.viaversion:viabackwards-fabric:4.6.2-SNAPSHOT") { transitive = false }
+	implementation("com.viaversion:viarewind-fabric:2.0.4-SNAPSHOT") { transitive = false }
+	implementation("org.yaml:snakeyaml:2.0")
+//	implementation "com.viaversion.viaversionfabric:viaversion-fabric-api:${minecraft_version}-0.4.10"
+//	implementation 'com.github.TinfoilMC:ClientCommands:0.4.2'
+//	implementation (include('com.github.19MisterX98.SeedcrackerX:seedcrackerx-api:master-SNAPSHOT')) {transitive = false}
 	configurations.implementation.extendsFrom(configurations.extraLibs)
+}
+loom {
+	accessWidenerPath = file("src/main/resources/vector-addon.accesswidener")
+	accessWidenerPath = file("src/main/resources/higtools.accesswidener")
+	accessWidenerPath = file("src/main/resources/accesswidener")
 }
 
 processResources {

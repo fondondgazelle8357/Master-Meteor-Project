@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "package": "com.kkllffaa.meteorutils.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "client": [
+    "AddCategoriesMixin",
+    "AddSystemsMixin",
+    "EchestMemoryMixin",
+    "MiddleClickExtraNotInInv",
+    "NoPortalHitboxMixin",
+    "PlayerEntityRendererMixin",
+    "ShulkerBoxScreenMixin",
+    "StashFinderMixin",
+    "WaypointsModuleMixin",
+    "WaypointsSystemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
